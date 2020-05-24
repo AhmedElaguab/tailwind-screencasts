@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Layout from './../components/Layout'
 
-export default function IndexPage() {
+export default function SupportPage() {
   return (
     <Layout>
       <Head>
-        <title>Home - Worcation</title>
+        <title>Support - Worcation</title>
       </Head>
       <main>
-        <h1 className="text-3xl">Home page</h1>
+        <h1 className="text-3xl">Support page</h1>
       </main>
     </Layout>
   )
