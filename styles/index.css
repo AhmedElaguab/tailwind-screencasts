@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+
+input:focus,
+select:focus {
+  @apply outline-none shadow-outline;
+}
+
 @tailwind utilities;
