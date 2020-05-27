@@ -1,6 +1,7 @@
 import SidebarHeader from './SidebarHeader'
 import SidebarPropertyType from './SidebarPropertyType'
 import SidebarAmenities from './SidebarAmenities'
+import SidebarUpdate from './SidebarUpdate'
 
 export default function Sidebar() {
   return (
@@ -10,6 +11,7 @@ export default function Sidebar() {
       <SidebarPropertyType />
       <hr className="mt-6 -mx-5 border border-gray-900" />
       <SidebarAmenities />
+      <SidebarUpdate />
     </aside>
   )
 }
