@@ -4,7 +4,7 @@ import SidebarSelect from './SidebarSelect'
 export default function SidebarHeader() {
   return (
     <header>
-      <div className="mb-8 flex justify-between">
+      <div className="flex justify-between">
         <SidebarInput
           className="w-5/12"
           label="Bedrooms"
