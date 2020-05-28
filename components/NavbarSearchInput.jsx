@@ -1,6 +1,6 @@
 export default function NavbarSearchInput() {
   return (
-    <div className="relative flex-grow">
+    <div className="relative w-4/10">
       <svg
         className="absolute m-2 w-6 h-6 fill-current text-gray-600"
         xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +12,7 @@ export default function NavbarSearchInput() {
         />
       </svg>
       <input
-        className="block w-6/12 focus:w-10/12  p-2 pl-10 text-lg text-gray-600 placeholder-gray-600 bg-gray-200 rounded-lg focus:outline-none focus:shadow-outline"
+        className="block w-full  p-2 pl-10 text-lg text-gray-600 placeholder-gray-600 bg-gray-200 rounded-lg focus:outline-none focus:shadow-outline"
         type="text"
         placeholder="Search by keywords"
       />

@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 export default function Brand(props) {
   return (
-    <div className="bg-gray-900 w-2/10 py-6">
+    <div className="flex-grow py-6 bg-gray-900">
       <Link href="/">
-        <a>
+        <a className="flex-grow">
           <img
-            className="h-10 block mx-auto"
+            className="h-10 lg:h-8 xl:h-10 block mx-auto"
             src="/logo-inverted.svg"
             alt="Worcation"
           />

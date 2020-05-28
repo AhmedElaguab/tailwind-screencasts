@@ -9,7 +9,7 @@ const links = [
 
 export default function NavbarItems() {
   return (
-    <ul className="flex">
+    <ul className="flex flex-grow justify-end">
       {links.map(({label, href}) => (
         <NavbarItem label={label} href={href} key={href} />
       ))}
