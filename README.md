@@ -24,7 +24,7 @@ yarn dev
 
 ```shell
 npm run build
-npm run start // Start production server
+npm run start # Start production server
 # or
 yarn build
 yarn start
