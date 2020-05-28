@@ -7,7 +7,7 @@ export default function Layout({children}) {
       <Header />
       <div className="flex items-stretch">
         <Sidebar />
-        <main className="px-8 py-5 h-screen flex-grow">{children}</main>
+        <main className="w-8/10 px-8 py-5 h-screen flex-grow">{children}</main>
       </div>
     </div>
   )
