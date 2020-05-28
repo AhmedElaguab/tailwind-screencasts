@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+body {
+  @apply bg-gray-200;
+}
+
 input:focus,
 select:focus {
   @apply outline-none shadow-outline;

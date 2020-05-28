@@ -3,7 +3,7 @@ import Sidebar from './Sidebar'
 
 export default function Layout({children}) {
   return (
-    <div className="bg-gray-200 text-gray-900 min-h-screen">
+    <div className="text-gray-900">
       <Header />
       <div className="flex items-stretch">
         <Sidebar />

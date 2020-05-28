@@ -1,9 +1,9 @@
 export default function PropertyCard({property}) {
   return (
     <div className="max-w-md mr-6 text-gray-900">
-      <div className="shadow-xs overflow-hidden">
+      <div className="shadow-xs h-64 rounded-lg overflow-hidden">
         <img
-          className="block rounded-lg object-cover"
+          className="block h-full w-full object-cover object-center"
           src={property.imageUrl}
         />
       </div>
