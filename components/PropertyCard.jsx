@@ -1,6 +1,6 @@
 export default function PropertyCard({property}) {
   return (
-    <div className="max-w-md mr-6 text-gray-900">
+    <div className="w-full lg:w-6/12 xl:w-4/12 px-3 mb-8 text-gray-900">
       <div className="shadow-xs h-64 rounded-lg overflow-hidden">
         <img
           className="block h-full w-full object-cover object-center"

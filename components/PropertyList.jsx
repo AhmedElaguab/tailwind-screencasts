@@ -5,7 +5,7 @@ export default function PropertyList({city, description, properties = []}) {
     <div className="mb-16">
       <h1 className="text-2xl">{city}</h1>
       <p className="mt-1 text-md font-medium text-gray-600">{description}</p>
-      <div className="mt-8 flex">
+      <div className="mt-8 flex flex-wrap lg:justify-between">
         {Array.isArray(properties) &&
           properties.length > 0 &&
           properties.map((property, i) => (
